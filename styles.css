@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #e0e8ff;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maindiv {
+  width: 450px;
+  height: 697px;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.heading {
+  color: #1f2e55;
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  line-height: 37px;
+  width: 354px;
+  font-size: 2.8rem;
+  margin: 45px auto 17px;
+  display: flex;
+  justify-content: center;
+}
+
+.maintext {
+  color: #717fa6;
+  margin: 0px auto;
+  padding: 0px 20px;
+  text-align: center;
+  width: 354px;
+  height: 78px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 25px;
+}
+
+#musichero {
+  border-radius: 20px 20px 0px 0px;
+  max-width: 100%;
+}
+
+#payment {
+  width: 354px;
+  height: 50px;
+  background-color: #382ae1;
+  margin: 32px auto 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+}
+
+#payment:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+#middlediv {
+  width: 354px;
+  height: 98px;
+  background-color: #f7f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 20px auto 0px;
+  border-radius: 10px;
+}
+
+.change {
+  color: #382ae1;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 90px;
+}
+.change:hover {
+  color: #766cf1;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.amount h2 {
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 1.6rem;
+  margin-bottom: 7px;
+}
+
+.amount h3 {
+  color: #717fa6;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+#textpayment {
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#cancelorder {
+  color: #717fa6;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top: 32px;
+  margin-left: 176px;
+  display: inline-block;
+}
+
+#cancelorder:hover {
+  color: #1f2e55;
+  cursor: pointer;
+  transition: 0.7s;
+}
+@media (max-width: 375px) {
+  .maindiv {
+    width: 327px;
+    height: 567px;
+    margin: auto;
+  }
+  #middlediv {
+    width: 279px;
+    height: 81px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+    padding: 16px;
+    gap: 0px;
+  }
+  #payment {
+    width: 279px;
+    height: 50px;
+    margin-top: 24px;
+  }
+  .heading {
+    width: 263px;
+    margin: 32px auto 16px;
+  }
+  .maintext {
+    width: 263px;
+    padding: 0px;
+  }
+  .amount {
+    width: 86px;
+    margin-left: 20px;
+  }
+  .amount h2 {
+    width: 86px;
+  }
+  .change {
+    margin-left: 50px;
+  }
+  #cancelorder {
+    margin: 24px 119px 0px;
+  }
+}
