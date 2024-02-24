@@ -124,7 +124,7 @@ body {
   cursor: pointer;
   transition: 0.7s;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .maindiv {
     width: 327px;
     height: 567px;
